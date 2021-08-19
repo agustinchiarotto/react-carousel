@@ -33,7 +33,6 @@
     "start-server-and-test": "^1.11.0"
   },
   "scripts": {
-    "preinstall": "node -e \"if (process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('Use yarn for installing: https://yarnpkg.com/en/docs/install')\"",
     "start-demo": "yarn workspace react-carousel-docs develop",
     "format": "prettier --write \"./**/*.{js,json}\"",
     "lint": "eslint docs-www/ react-carousel/ cypress/ --color",
